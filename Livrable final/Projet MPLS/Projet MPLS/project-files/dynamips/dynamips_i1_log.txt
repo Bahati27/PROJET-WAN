@@ -1,0 +1,26 @@
+May 18 16:57:19.933 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 18 16:57:19.933 HYPERVISOR: Started on IP = localhost, TCP port = 7875.
+May 18 16:57:20.243 HYPERVISOR: exec_cmd: hypervisor version 
+May 18 16:57:20.247 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jeanc\Documents\DOSSIER_PROSIT\X4\Semestre 8\PROSITS\Label Switching (MPLS)\Workshop\LAB\project-files\dynamips 
+May 18 16:57:20.256 GENERAL: working_dir=C:\Users\jeanc\Documents\DOSSIER_PROSIT\X4\Semestre 8\PROSITS\Label Switching (MPLS)\Workshop\LAB\project-files\dynamips
+May 18 16:57:20.256 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jeanc\Documents\DOSSIER_PROSIT\X4\Semestre 8\PROSITS\Label Switching (MPLS)\Workshop\LAB\project-files\dynamips\794d9697-bc02-4d8c-a436-07471a11f405 
+May 18 16:57:20.256 GENERAL: working_dir=C:\Users\jeanc\Documents\DOSSIER_PROSIT\X4\Semestre 8\PROSITS\Label Switching (MPLS)\Workshop\LAB\project-files\dynamips\794d9697-bc02-4d8c-a436-07471a11f405
+May 18 16:57:20.258 HYPERVISOR: exec_cmd: vm create R14 1 c2691 
+May 18 16:57:20.261 VM: VM R14 created.
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: vm set_con_tcp_port R14 5000 
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: c2691 get_mac_addr R14 
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: vm set_ios R14 C:/Users/jeanc/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image 
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: vm get_status R14 
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: vm set_idle_pc R14 0x60c09aa0 
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: vm set_exec_area R14 64 
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: vm set_ram R14 192 
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: vm set_nvram R14 256 
+May 18 16:57:20.262 HYPERVISOR: exec_cmd: vm set_disk0 R14 0 
+May 18 16:57:20.331 HYPERVISOR: exec_cmd: vm set_ios R14 C:/Users/jeanc/GNS3/images/IOS/c2691-adventerprisek9-mz.124-15.T14.image 
+May 18 16:57:28.379 HYPERVISOR: exec_cmd: vm get_status R14 
+May 18 16:57:28.379 HYPERVISOR: exec_cmd: vm extract_config R14 
+May 18 16:57:28.382 HYPERVISOR: exec_cmd: vm delete R14 
+May 18 16:57:28.382 VM: VM R14 destroyed.
+May 18 16:57:28.390 HYPERVISOR: exec_cmd: hypervisor stop 
+May 18 16:57:28.850 HYPERVISOR: Stopped.
+May 18 16:57:28.850 GENERAL: reset done.
